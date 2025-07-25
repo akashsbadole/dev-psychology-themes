@@ -1,0 +1,55 @@
+{
+  "name": "Warm Orange - Enthusiasm & Creativity",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a0f05",
+    "editor.foreground": "#fff3e0",
+    "editorCursor.foreground": "#ff9800",
+    "editor.lineHighlightBackground": "#e6530020",
+    "editor.selectionBackground": "#f5720240",
+    "activityBar.background": "#2e1407",
+    "activityBar.foreground": "#ffcc80",
+    "activityBarBadge.background": "#ff9800",
+    "sideBar.background": "#331a0a",
+    "sideBar.foreground": "#ffcc80",
+    "statusBar.background": "#f57c00",
+    "statusBar.foreground": "#ffffff",
+    "tab.activeBackground": "#1a0f05",
+    "tab.activeForeground": "#fff3e0",
+    "tab.inactiveBackground": "#331a0a",
+    "tab.activeBorder": "#ffb74d",
+    "button.background": "#f57c00",
+    "button.hoverBackground": "#ff9800",
+    "input.background": "#e6530030",
+    "input.border": "#ffb74d",
+    "list.activeSelectionBackground": "#f5720240",
+    "list.hoverBackground": "#f57c0030"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": {"foreground": "#ffb74d", "fontStyle": "bold"}
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {"foreground": "#81c784"}
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {"foreground": "#ffcc80"}
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {"foreground": "#ffd54f"}
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {"foreground": "#ff9800", "fontStyle": "italic"}
+    }
+  ]
+}

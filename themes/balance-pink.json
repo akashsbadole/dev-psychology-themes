@@ -1,0 +1,55 @@
+{
+  "name": "Balance Pink - Compassion & Focus",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a0a0f",
+    "editor.foreground": "#fce4ec",
+    "editorCursor.foreground": "#e91e63",
+    "editor.lineHighlightBackground": "#ad1457-20",
+    "editor.selectionBackground": "#c2185b40",
+    "activityBar.background": "#2e0714",
+    "activityBar.foreground": "#f8bbd9",
+    "activityBarBadge.background": "#e91e63",
+    "sideBar.background": "#330a19",
+    "sideBar.foreground": "#f8bbd9",
+    "statusBar.background": "#c2185b",
+    "statusBar.foreground": "#ffffff",
+    "tab.activeBackground": "#1a0a0f",
+    "tab.activeForeground": "#fce4ec",
+    "tab.inactiveBackground": "#330a19",
+    "tab.activeBorder": "#ec407a",
+    "button.background": "#c2185b",
+    "button.hoverBackground": "#e91e63",
+    "input.background": "#ad145730",
+    "input.border": "#ec407a",
+    "list.activeSelectionBackground": "#c2185b40",
+    "list.hoverBackground": "#c2185b30"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": {"foreground": "#f06292", "fontStyle": "bold"}
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {"foreground": "#81c784"}
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {"foreground": "#f8bbd9"}
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {"foreground": "#ffb74d"}
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {"foreground": "#e91e63", "fontStyle": "italic"}
+    }
+  ]
+}

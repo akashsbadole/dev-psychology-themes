@@ -1,0 +1,76 @@
+{
+  "name": "dev-ideas-themes",
+  "displayName": "Developer Themes",
+  "description": "10 scientifically designed color themes based on Dev Ideas and color theory for optimal coding experience",
+  "version": "1.0.1",
+  "publisher": "akashbadole",
+  "license": "Apache-2.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Themes"],
+  "keywords": ["theme", "dev", "eye-strain", "productivity", "color-theory"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akashsbadole/dev-psychology-themes"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Focus Blue - Concentration & Trust",
+        "uiTheme": "vs-dark",
+        "path": "./themes/focus-blue.json"
+      },
+      {
+        "label": "Creative Purple - Innovation & Imagination",
+        "uiTheme": "vs-dark",
+        "path": "./themes/creative-purple.json"
+      },
+      {
+        "label": "Energy Red - Passion & Alertness",
+        "uiTheme": "vs-dark",
+        "path": "./themes/energy-red.json"
+      },
+      {
+        "label": "Nature Green - Growth & Harmony",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nature-green.json"
+      },
+      {
+        "label": "Calm Teal - Balance & Clarity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/calm-teal.json"
+      },
+      {
+        "label": "Warm Orange - Enthusiasm & Creativity",
+        "uiTheme": "vs-dark",
+        "path": "./themes/warm-orange.json"
+      },
+      {
+        "label": "Balance Pink - Compassion & Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/balance-pink.json"
+      },
+      {
+        "label": "Deep Indigo - Wisdom & Intuition",
+        "uiTheme": "vs-dark",
+        "path": "./themes/deep-indigo.json"
+      },
+      {
+        "label": "Earth Brown - Stability & Grounding",
+        "uiTheme": "vs-dark",
+        "path": "./themes/earth-brown.json"
+      },
+      {
+        "label": "Neutral Gray - Minimalism & Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neutral-gray.json"
+      }
+    ]
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#1e1e1e",
+    "theme": "dark"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Earth Brown - Stability & Grounding",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1a1410",
+    "editor.foreground": "#efebe9",
+    "editorCursor.foreground": "#8d6e63",
+    "editor.lineHighlightBackground": "#3e2723-20",
+    "editor.selectionBackground": "#5d4e4140",
+    "activityBar.background": "#2e1e14",
+    "activityBar.foreground": "#d7ccc8",
+    "activityBarBadge.background": "#795548",
+    "sideBar.background": "#332218",
+    "sideBar.foreground": "#d7ccc8",
+    "statusBar.background": "#5d4e41",
+    "statusBar.foreground": "#ffffff",
+    "tab.activeBackground": "#1a1410",
+    "tab.activeForeground": "#efebe9",
+    "tab.inactiveBackground": "#332218",
+    "tab.activeBorder": "#a1887f",
+    "button.background": "#6d4c41",
+    "button.hoverBackground": "#795548",
+    "input.background": "#3e272330",
+    "input.border": "#a1887f",
+    "list.activeSelectionBackground": "#5d4e4140",
+    "list.hoverBackground": "#5d4e4130"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": {"foreground": "#a1887f", "fontStyle": "bold"}
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {"foreground": "#81c784"}
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {"foreground": "#bcaaa4"}
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {"foreground": "#ffb74d"}
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {"foreground": "#8d6e63", "fontStyle": "italic"}
+    }
+  ]
+}

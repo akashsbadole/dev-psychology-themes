@@ -1,0 +1,55 @@
+{
+  "name": "Nature Green - Growth & Harmony",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0d1b0d",
+    "editor.foreground": "#e8f5e8",
+    "editorCursor.foreground": "#4caf50",
+    "editor.lineHighlightBackground": "#1b5e2020",
+    "editor.selectionBackground": "#2e7d3240",
+    "activityBar.background": "#0f1f0f",
+    "activityBar.foreground": "#c8e6c9",
+    "activityBarBadge.background": "#4caf50",
+    "sideBar.background": "#112211",
+    "sideBar.foreground": "#c8e6c9",
+    "statusBar.background": "#388e3c",
+    "statusBar.foreground": "#ffffff",
+    "tab.activeBackground": "#0d1b0d",
+    "tab.activeForeground": "#e8f5e8",
+    "tab.inactiveBackground": "#112211",
+    "tab.activeBorder": "#66bb6a",
+    "button.background": "#43a047",
+    "button.hoverBackground": "#4caf50",
+    "input.background": "#1b5e2030",
+    "input.border": "#66bb6a",
+    "list.activeSelectionBackground": "#2e7d3240",
+    "list.hoverBackground": "#388e3c30"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": {"foreground": "#81c784", "fontStyle": "bold"}
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {"foreground": "#a5d6a7"}
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {"foreground": "#66bb6a"}
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {"foreground": "#ffb74d"}
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {"foreground": "#4caf50", "fontStyle": "italic"}
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Deep Indigo - Wisdom & Intuition",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0f0f1a",
+    "editor.foreground": "#e8eaf6",
+    "editorCursor.foreground": "#5c6bc0",
+    "editor.lineHighlightBackground": "#1a237e20",
+    "editor.selectionBackground": "#303f9f40",
+    "activityBar.background": "#12121e",
+    "activityBar.foreground": "#c5cae9",
+    "activityBarBadge.background": "#3f51b5",
+    "sideBar.background": "#141422",
+    "sideBar.foreground": "#c5cae9",
+    "statusBar.background": "#303f9f",
+    "statusBar.foreground": "#ffffff",
+    "tab.activeBackground": "#0f0f1a",
+    "tab.activeForeground": "#e8eaf6",
+    "tab.inactiveBackground": "#141422",
+    "tab.activeBorder": "#7986cb",
+    "button.background": "#3949ab",
+    "button.hoverBackground": "#3f51b5",
+    "input.background": "#1a237e30",
+    "input.border": "#7986cb",
+    "list.activeSelectionBackground": "#303f9f40",
+    "list.hoverBackground": "#303f9f30"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": {"foreground": "#7986cb", "fontStyle": "bold"}
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {"foreground": "#81c784"}
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {"foreground": "#9fa8da"}
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {"foreground": "#ffb74d"}
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {"foreground": "#5c6bc0", "fontStyle": "italic"}
+    }
+  ]
+}

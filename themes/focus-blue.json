@@ -1,0 +1,55 @@
+{
+  "name": "Focus Blue - Concentration & Trust",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#0a0e1a",
+    "editor.foreground": "#e8f4f8",
+    "editorCursor.foreground": "#64b5f6",
+    "editor.lineHighlightBackground": "#1a237e20",
+    "editor.selectionBackground": "#1976d240",
+    "activityBar.background": "#0d1421",
+    "activityBar.foreground": "#90caf9",
+    "activityBarBadge.background": "#2196f3",
+    "sideBar.background": "#0f1419",
+    "sideBar.foreground": "#bbdefb",
+    "statusBar.background": "#1565c0",
+    "statusBar.foreground": "#ffffff",
+    "tab.activeBackground": "#0a0e1a",
+    "tab.activeForeground": "#e3f2fd",
+    "tab.inactiveBackground": "#0f1419",
+    "tab.activeBorder": "#42a5f5",
+    "button.background": "#1976d2",
+    "button.hoverBackground": "#1e88e5",
+    "input.background": "#1a237e30",
+    "input.border": "#42a5f5",
+    "list.activeSelectionBackground": "#1976d240",
+    "list.hoverBackground": "#1565c030"
+  },
+  "tokenColors": [
+    {
+      "name": "Keyword",
+      "scope": ["keyword", "storage.type"],
+      "settings": {"foreground": "#64b5f6", "fontStyle": "bold"}
+    },
+    {
+      "name": "String",
+      "scope": ["string"],
+      "settings": {"foreground": "#81c784"}
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name.function"],
+      "settings": {"foreground": "#90caf9"}
+    },
+    {
+      "name": "Number",
+      "scope": ["constant.numeric"],
+      "settings": {"foreground": "#ffb74d"}
+    },
+    {
+      "name": "Comment",
+      "scope": ["comment"],
+      "settings": {"foreground": "#546e7a", "fontStyle": "italic"}
+    }
+  ]
+}
