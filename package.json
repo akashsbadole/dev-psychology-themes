@@ -1,68 +1,82 @@
 {
   "name": "dev-ideas-themes",
   "displayName": "Developer Themes",
-  "description": "10 scientifically designed color themes based on Dev Ideas and color theory for optimal coding experience",
-  "version": "1.0.1",
+  "description": "A curated collection of 10 ergonomically optimized and psychologically inspired themes for Visual Studio Code — built for developers who code smart, code long, and code with passion.",
+  "version": "1.0.3",
   "publisher": "akashbadole",
   "license": "Apache-2.0",
   "engines": {
     "vscode": "^1.74.0"
   },
   "categories": ["Themes"],
-  "keywords": ["theme", "dev", "eye-strain", "productivity", "color-theory"],
-  "repository": {
+  "keywords": [
+    "theme", 
+    "psychology", 
+    "syntax-highlighting", 
+    "programming", 
+    "javascript",
+    "python", 
+    "typescript", 
+    "java", 
+    "rust", 
+    "go", 
+    "php", 
+    "html", 
+    "css"
+  ],
+    "repository": {
     "type": "git",
     "url": "https://github.com/akashsbadole/dev-psychology-themes"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Focus Blue - Concentration & Trust",
+        "label": "Focus Blue - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/focus-blue.json"
       },
       {
-        "label": "Creative Purple - Innovation & Imagination",
+        "label": "Creative Purple - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/creative-purple.json"
       },
       {
-        "label": "Energy Red - Passion & Alertness",
+        "label": "Energy Red - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/energy-red.json"
       },
       {
-        "label": "Nature Green - Growth & Harmony",
+        "label": "Nature Green - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/nature-green.json"
       },
       {
-        "label": "Calm Teal - Balance & Clarity",
+        "label": "Calm Teal - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/calm-teal.json"
       },
       {
-        "label": "Warm Orange - Enthusiasm & Creativity",
+        "label": "Warm Orange - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/warm-orange.json"
       },
       {
-        "label": "Balance Pink - Compassion & Focus",
+        "label": "Balance Pink - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/balance-pink.json"
       },
       {
-        "label": "Deep Indigo - Wisdom & Intuition",
+        "label": "Deep Indigo - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/deep-indigo.json"
       },
       {
-        "label": "Earth Brown - Stability & Grounding",
+        "label": "Earth Brown - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/earth-brown.json"
       },
       {
-        "label": "Neutral Gray - Minimalism & Focus",
+        "label": "Neutral Gray - Complete Syntax",
         "uiTheme": "vs-dark",
         "path": "./themes/neutral-gray.json"
       }

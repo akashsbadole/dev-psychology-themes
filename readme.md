@@ -1,6 +1,31 @@
-# Dev Color Themes
+# 🌈 Dev Color Themes for VS Code
 
-A collection of 10 dev designed VS Code themes based on color psychology and eye ergonomics.
+A curated collection of 10 ergonomically optimized and psychologically inspired themes for Visual Studio Code — built for developers who code smart, code long, and code with passion.
+
+---
+
+## 🧠 Why These Themes?
+
+Each theme in this pack is crafted using principles of **color psychology**, **visual ergonomics**, and **developer workflow optimization**. Whether you're debugging at midnight or brainstorming UI/UX in the afternoon, there's a theme to support your mental state and visual comfort.
+
+---
+
+## 🎨 Theme Collection
+
+| Theme Name          | Mood & Benefit               | Best Use Case                        |
+| ------------------- | ---------------------------- | ------------------------------------ |
+| **Focus Blue**      | Calm, Trust, Focus           | Long coding sessions, debugging      |
+| **Creative Purple** | Imagination, Innovation      | Creative work, UI/UX design          |
+| **Energy Red**      | Alertness, Energy            | High-priority tasks, quick fixes     |
+| **Nature Green**    | Growth, Harmony, Eye Comfort | Reading docs, learning, relaxed work |
+| **Calm Teal**       | Balance, Clarity             | Planning, reviews, architecture      |
+| **Warm Orange**     | Enthusiasm, Collaboration    | Pair programming, teamwork           |
+| **Balance Pink**    | Compassion, Focus            | Stressful bug fixes, deep thinking   |
+| **Deep Indigo**     | Intuition, Deep Thought      | Algorithms, backend development      |
+| **Earth Brown**     | Stability, Comfort           | Maintenance, legacy code refactor    |
+| **Neutral Gray**    | Minimalism, Distraction-Free | Writing, nighttime sessions          |
+
+---
 
 ## 🎨 Available Themes
 
