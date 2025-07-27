@@ -2,7 +2,7 @@
   "name": "Light Theme",
   "type": "light",
   "colors": {
-    "editor.background": "#FFFFFF",
+    "editor.background": "#eeeeee",
     "editor.foreground": "#000000",
     "editorCursor.foreground": "#000000",
     "selection.background": "#ADD6FF",
@@ -12,7 +12,7 @@
     "statusBar.background": "#E0E0E0",
     "statusBar.foreground": "#000000",
     "statusBarItem.hoverBackground": "#C8C8C8",
-    "terminal.background": "#FFFFFF",
+    "terminal.background": "#eeeeee",
     "terminal.foreground": "#000000"
   },
   "tokenColors": [

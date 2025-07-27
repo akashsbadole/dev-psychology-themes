@@ -2,7 +2,7 @@
   "name": "dev-ideas-themes",
   "displayName": "Developer Themes",
   "description": "A curated collection of 10 ergonomically optimized and psychologically inspired themes for Visual Studio Code — built for developers who code smart, code long, and code with passion.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "publisher": "akashbadole",
   "license": "Apache-2.0",
   "engines": {

@@ -5,8 +5,8 @@
     "editor.background": "#0d1b0d",
     "editor.foreground": "#e8f5e8",
     "editorCursor.foreground": "#4caf50",
-    "editor.lineHighlightBackground": "#1b5e2015",
-    "editor.selectionBackground": "#2e7d3240",
+    "editor.lineHighlightBackground": "#1b5e200A",
+    "editor.selectionBackground": "#2e7d3260",
     "editor.selectionHighlightBackground": "#2e7d3220",
     "editor.findMatchBackground": "#ffeb3b40",
     "editor.findMatchHighlightBackground": "#ffeb3b20",
@@ -33,14 +33,14 @@
     "activityBar.background": "#0f1f0f",
     "activityBar.foreground": "#c8e6c9",
     "activityBarBadge.background": "#4caf50",
-    "activityBarBadge.foreground": "#ffffff",
+    "activityBarBadge.foreground": "#eeeeee",
 
     "sideBar.background": "#112211",
     "sideBar.foreground": "#c8e6c9",
     "sideBarTitle.foreground": "#66bb6a",
 
     "statusBar.background": "#388e3c",
-    "statusBar.foreground": "#ffffff",
+    "statusBar.foreground": "#eeeeee",
     "statusBar.debuggingBackground": "#f44336",
 
     "tab.activeBackground": "#0d1b0d",
@@ -65,7 +65,7 @@
     "terminal.ansiBrightBlue": "#448aff",
     "terminal.ansiBrightMagenta": "#ff4081",
     "terminal.ansiBrightCyan": "#18ffff",
-    "terminal.ansiBrightWhite": "#ffffff"
+    "terminal.ansiBrightWhite": "#eeeeee"
   },
   "tokenColors": [
     {
@@ -594,7 +594,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#81c784"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -603,7 +603,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#66bb6a"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -612,7 +612,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-         "foreground": "#4fc3f7"
+         "foreground": "#eeeeee"
      }
    },
 

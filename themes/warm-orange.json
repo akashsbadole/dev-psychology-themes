@@ -5,8 +5,8 @@
     "editor.background": "#1a0f05",
     "editor.foreground": "#fff3e0",
     "editorCursor.foreground": "#ff9800",
-    "editor.lineHighlightBackground": "#e6530015",
-    "editor.selectionBackground": "#f5720240",
+    "editor.lineHighlightBackground": "#e653000A",
+    "editor.selectionBackground": "#f5720260",
     "editor.selectionHighlightBackground": "#f5720220",
     "editor.findMatchBackground": "#ffeb3b40",
     "editor.findMatchHighlightBackground": "#ffeb3b20",
@@ -33,14 +33,14 @@
     "activityBar.background": "#2e1407",
     "activityBar.foreground": "#ffcc80",
     "activityBarBadge.background": "#ff9800",
-    "activityBarBadge.foreground": "#ffffff",
+    "activityBarBadge.foreground": "#eeeeee",
 
     "sideBar.background": "#331a0a",
     "sideBar.foreground": "#ffcc80",
     "sideBarTitle.foreground": "#ffb74d",
 
     "statusBar.background": "#f57c00",
-    "statusBar.foreground": "#ffffff",
+    "statusBar.foreground": "#eeeeee",
     "statusBar.debuggingBackground": "#f44336",
 
     "tab.activeBackground": "#1a0f05",
@@ -65,7 +65,7 @@
     "terminal.ansiBrightBlue": "#448aff",
     "terminal.ansiBrightMagenta": "#ff4081",
     "terminal.ansiBrightCyan": "#18ffff",
-    "terminal.ansiBrightWhite": "#ffffff"
+    "terminal.ansiBrightWhite": "#eeeeee"
   },
   "tokenColors": [
     {
@@ -594,7 +594,7 @@
        "source.json meta.structure.dictionary.json support.type.property-name.json"
      ],
      "settings": {
-       "foreground": "#ffb74d"
+       "foreground": "#eeeeee"
      }
    },
    {
@@ -603,7 +603,7 @@
        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
      ],
      "settings": {
-       "foreground": "#ff9800"
+       "foreground": "#eeeeee"
      }
    },
    {
@@ -612,7 +612,7 @@
        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
      ],
      "settings": {
-       "foreground": "#4fc3f7"
+       "foreground": "#eeeeee"
      }
    },
 

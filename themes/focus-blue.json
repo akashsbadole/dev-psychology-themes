@@ -5,8 +5,8 @@
     "editor.background": "#0a0e1a",
     "editor.foreground": "#e8f4f8",
     "editorCursor.foreground": "#64b5f6",
-    "editor.lineHighlightBackground": "#1a237e15",
-    "editor.selectionBackground": "#1976d240",
+    "editor.lineHighlightBackground": "#1a237e0A",
+    "editor.selectionBackground": "#1976d260",
     "editor.selectionHighlightBackground": "#1976d220",
     "editor.findMatchBackground": "#ffeb3b40",
     "editor.findMatchHighlightBackground": "#ffeb3b20",
@@ -33,14 +33,14 @@
     "activityBar.background": "#0d1421",
     "activityBar.foreground": "#90caf9",
     "activityBarBadge.background": "#2196f3",
-    "activityBarBadge.foreground": "#ffffff",
+    "activityBarBadge.foreground": "#eeeeee",
 
     "sideBar.background": "#0f1419",
     "sideBar.foreground": "#bbdefb",
     "sideBarTitle.foreground": "#42a5f5",
 
     "statusBar.background": "#1565c0",
-    "statusBar.foreground": "#ffffff",
+    "statusBar.foreground": "#eeeeee",
     "statusBar.debuggingBackground": "#f44336",
 
     "tab.activeBackground": "#0a0e1a",
@@ -65,7 +65,7 @@
     "terminal.ansiBrightBlue": "#448aff",
     "terminal.ansiBrightMagenta": "#ff4081",
     "terminal.ansiBrightCyan": "#18ffff",
-    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightWhite": "#eeeeee",
     "contrastActiveBorder": "#42a5f5",
     "contrastBorder": "#42a5f5",
     "focusBorder": "#42a5f5",
@@ -100,7 +100,7 @@
     "scrollbarSlider.hoverBackground": "#1976d260",
     "scrollbarSlider.activeBackground": "#1976d280",
     "badge.background": "#2196f3",
-    "badge.foreground": "#ffffff",
+    "badge.foreground": "#eeeeee",
     "progressBar.background": "#2196f3",
     "titleBar.activeBackground": "#0d1421",
     "titleBar.activeForeground": "#e8f4f8",
@@ -665,7 +665,7 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#64b5f6"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -674,7 +674,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#ba68c8"
+        "foreground": "#eeeeee"
       }
     },
     {
@@ -683,7 +683,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#4fc3f7"
+        "foreground": "#eeeeee"
       }
     },
 
