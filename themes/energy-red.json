@@ -48,8 +48,8 @@
     "tab.inactiveBackground": "#330a0a",
     "tab.activeBorder": "#ef5350",
 
-    "terminal.background": "#1a0505",
-    "terminal.foreground": "#ffebee",
+    "terminal.background": "#2a1515",
+    "terminal.foreground": "#ffffee",
     "terminal.ansiBlack": "#263238",
     "terminal.ansiRed": "#f44336",
     "terminal.ansiGreen": "#4caf50",

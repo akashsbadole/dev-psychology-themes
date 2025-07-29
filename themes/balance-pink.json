@@ -48,8 +48,8 @@
     "tab.inactiveBackground": "#330a19",
     "tab.activeBorder": "#ec407a",
 
-    "terminal.background": "#1a0a0f",
-    "terminal.foreground": "#fce4ec",
+    "terminal.background": "#2a1a1f",
+    "terminal.foreground": "#ffeef7",
     "terminal.ansiBlack": "#263238",
     "terminal.ansiRed": "#f44336",
     "terminal.ansiGreen": "#4caf50",
@@ -594,7 +594,8 @@
         "source.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#eeeeee"
+        "foreground": "#f06292",
+        "fontStyle": "bold"
       }
     },
     {
@@ -603,7 +604,7 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#eeeeee"
+        "foreground": "#ba68c8"
       }
     },
     {
@@ -612,28 +613,79 @@
         "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
       ],
       "settings": {
-        "foreground": "#eeeeee"
+        "foreground": "#9575cd"
+      }
+    },
+    {
+      "name": "JSON - Punctuation",
+      "scope": [
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
+        "punctuation.separator.dictionary.key-value.json",
+        "punctuation.separator.array.json"
+      ],
+      "settings": {
+        "foreground": "#ce93d8"
+      }
+    },
+    {
+      "name": "JSON - String Value",
+      "scope": [
+        "string.quoted.double.json",
+        "string.quoted.single.json"
+      ],
+      "settings": {
+        "foreground": "#80cbc4"
+      }
+    },
+    {
+      "name": "JSON - Number Value",
+      "scope": [
+        "constant.numeric.json"
+      ],
+      "settings": {
+        "foreground": "#4db6ac"
+      }
+    },
+    {
+      "name": "JSON - Boolean Value",
+      "scope": [
+        "constant.language.json"
+      ],
+      "settings": {
+        "foreground": "#f48fb1",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON - Null Value",
+      "scope": [
+        "constant.language.null.json"
+      ],
+      "settings": {
+        "foreground": "#ef5350",
+        "fontStyle": "bold"
       }
     },
 
     {
-      "name": "YAML - Key",
-      "scope": [
-        "entity.name.tag.yaml"
-      ],
-      "settings": {
-        "foreground": "#f06292"
-      }
-    },
-    {
-      "name": "YAML - Value",
-      "scope": [
-        "string.unquoted.plain.out.yaml"
-      ],
-      "settings": {
-        "foreground": "#81c784"
-      }
-    },
+     "name": "YAML - Key",
+     "scope": [
+       "entity.name.tag.yaml"
+     ],
+     "settings": {
+       "foreground": "#f06292"
+     }
+   },
+   {
+     "name": "YAML - Value",
+     "scope": [
+       "string.unquoted.plain.out.yaml"
+     ],
+     "settings": {
+       "foreground": "#81c784"
+     }
+   },
    {
      "name": "Markdown - Heading",
      "scope": [
@@ -694,6 +746,16 @@
        "fontStyle": "italic"
      }
    },
+   {
+     "name": "Markdown - Tables",
+     "scope": [
+       "markup.table",
+       "punctuation.separator.table-cell.markdown"
+     ],
+     "settings": {
+       "foreground": "#90caf9"
+     }
+   },
 
    {
      "name": "SQL - Keyword",
@@ -735,6 +797,126 @@
      ],
      "settings": {
        "foreground": "#f06292"
+     }
+   },
+   {
+     "name": "Decorators and Annotations Enhanced",
+     "scope": [
+       "meta.decorator",
+       "meta.decorator.identifier",
+       "meta.decorator punctuation.decorator"
+     ],
+     "settings": {
+       "foreground": "#ba68c8",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "GraphQL Operation",
+     "scope": [
+       "source.graphql keyword.operation",
+       "source.graphql meta.type.interface"
+     ],
+     "settings": {
+       "foreground": "#26c6da",
+       "fontStyle": "bold"
+     }
+   },
+   {
+     "name": "GraphQL Fields",
+     "scope": [
+       "source.graphql variable.graphql",
+       "source.graphql meta.selection-set"
+     ],
+     "settings": {
+       "foreground": "#80cbc4"
+     }
+   },
+   {
+     "name": "Docker Keywords",
+     "scope": [
+       "keyword.other.special-method.dockerfile",
+       "source.dockerfile keyword.operator.flag"
+     ],
+     "settings": {
+       "foreground": "#f48fb1",
+       "fontStyle": "bold"
+     }
+   },
+   {
+     "name": "YAML Anchors and Aliases",
+     "scope": [
+       "entity.name.type.anchor.yaml",
+       "variable.other.alias.yaml"
+     ],
+     "settings": {
+       "foreground": "#b39ddb",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "Shell Variables",
+     "scope": [
+       "variable.other.special.shell",
+       "variable.other.positional.shell",
+       "variable.other.normal.shell"
+     ],
+     "settings": {
+       "foreground": "#ce93d8"
+     }
+   },
+   {
+     "name": "TypeScript Decorators",
+     "scope": [
+       "meta.decorator.ts entity.name.function",
+       "meta.decorator.tsx entity.name.function"
+     ],
+     "settings": {
+       "foreground": "#dce775",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "JSDoc Tags",
+     "scope": [
+       "comment.block.documentation storage.type.class.jsdoc",
+       "comment.block.documentation punctuation.definition.block.tag.jsdoc"
+     ],
+     "settings": {
+       "foreground": "#aed581",
+       "fontStyle": "bold"
+     }
+   },
+   {
+     "name": "Git Modified",
+     "scope": [
+       "markup.changed",
+       "meta.diff.header.git"
+     ],
+     "settings": {
+       "foreground": "#fff176"
+     }
+   },
+   {
+     "name": "Python Decorators",
+     "scope": [
+       "meta.decorator.python",
+       "meta.decorator.identifier.python"
+     ],
+     "settings": {
+       "foreground": "#ffb74d",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "Rust Attributes",
+     "scope": [
+       "meta.attribute.rust",
+       "meta.attribute.identifier.rust"
+     ],
+     "settings": {
+       "foreground": "#ff9800",
+       "fontStyle": "italic"
      }
    }
  ]

@@ -48,8 +48,8 @@
     "tab.inactiveBackground": "#0f1419",
     "tab.activeBorder": "#42a5f5",
 
-    "terminal.background": "#0a0e1a",
-    "terminal.foreground": "#e8f4f8",
+    "terminal.background": "#1a1e2a",
+    "terminal.foreground": "#f0f8ff",
     "terminal.ansiBlack": "#263238",
     "terminal.ansiRed": "#f44336",
     "terminal.ansiGreen": "#4caf50",
@@ -1375,6 +1375,14 @@
       "method": "#90CAF9",
       "property": "#81C784",
       "variable": "#E8F4F8",
-      "parameter": "#FFB74D"
+      "parameter": "#FFB74D",
+      "macro": "#ba68c8",
+      "struct": "#4fc3f7",
+      "enum.declaration": "#ffb74d",
+      "typeParameter.declaration": "#4db6ac",
+      "parameter.declaration": "#ffb74d",
+      "property.declaration": "#81c784",
+      "variable.defaultLibrary": "#9575cd",
+      "variable.global": "#f06292"
     }
   }

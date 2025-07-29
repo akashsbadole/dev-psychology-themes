@@ -48,8 +48,8 @@
     "tab.inactiveBackground": "#332218",
     "tab.activeBorder": "#a1887f",
 
-    "terminal.background": "#1a1410",
-    "terminal.foreground": "#efebe9",
+    "terminal.background": "#2a2420",
+    "terminal.foreground": "#f5f1ee",
     "terminal.ansiBlack": "#263238",
     "terminal.ansiRed": "#f44336",
     "terminal.ansiGreen": "#4caf50",
@@ -58,14 +58,14 @@
     "terminal.ansiMagenta": "#e91e63",
     "terminal.ansiCyan": "#00bcd4",
     "terminal.ansiWhite": "#eceff1",
-    "terminal.ansiBrightBlack": "#5d4e41",
+    "terminal.ansiBrightBlack": "#37474f",
     "terminal.ansiBrightRed": "#ff5252",
     "terminal.ansiBrightGreen": "#69f0ae",
     "terminal.ansiBrightYellow": "#ffff00",
     "terminal.ansiBrightBlue": "#448aff",
     "terminal.ansiBrightMagenta": "#ff4081",
     "terminal.ansiBrightCyan": "#18ffff",
-    "terminal.ansiBrightWhite": "#eeeeee"
+    "terminal.ansiBrightWhite": "#ffffff"
   },
   "tokenColors": [
     {
@@ -737,7 +737,114 @@
      "settings": {
        "foreground": "#a1887f"
      }
+   },
+   {
+     "name": "GraphQL Operation",
+     "scope": [
+       "source.graphql keyword.operation",
+       "source.graphql meta.type.interface"
+     ],
+     "settings": {
+       "foreground": "#26c6da",
+       "fontStyle": "bold"
+     }
+   },
+   {
+     "name": "GraphQL Fields",
+     "scope": [
+       "source.graphql variable.graphql",
+       "source.graphql meta.selection-set"
+     ],
+     "settings": {
+       "foreground": "#80cbc4"
+     }
+   },
+   {
+     "name": "Docker Keywords",
+     "scope": [
+       "keyword.other.special-method.dockerfile",
+       "source.dockerfile keyword.operator.flag"
+     ],
+     "settings": {
+       "foreground": "#f48fb1",
+       "fontStyle": "bold"
+     }
+   },
+   {
+     "name": "YAML Anchors and Aliases",
+     "scope": [
+       "entity.name.type.anchor.yaml",
+       "variable.other.alias.yaml"
+     ],
+     "settings": {
+       "foreground": "#b39ddb",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "Shell Variables",
+     "scope": [
+       "variable.other.special.shell",
+       "variable.other.positional.shell",
+       "variable.other.normal.shell"
+     ],
+     "settings": {
+       "foreground": "#ce93d8"
+     }
+   },
+   {
+     "name": "TypeScript Decorators",
+     "scope": [
+       "meta.decorator.ts entity.name.function",
+       "meta.decorator.tsx entity.name.function"
+     ],
+     "settings": {
+       "foreground": "#dce775",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "JSDoc Tags",
+     "scope": [
+       "comment.block.documentation storage.type.class.jsdoc",
+       "comment.block.documentation punctuation.definition.block.tag.jsdoc"
+     ],
+     "settings": {
+       "foreground": "#aed581",
+       "fontStyle": "bold"
+     }
+   },
+   {
+     "name": "Git Modified",
+     "scope": [
+       "markup.changed",
+       "meta.diff.header.git"
+     ],
+     "settings": {
+       "foreground": "#fff176"
+     }
+   },
+   {
+     "name": "Python Decorators",
+     "scope": [
+       "meta.decorator.python",
+       "meta.decorator.identifier.python"
+     ],
+     "settings": {
+       "foreground": "#ffb74d",
+       "fontStyle": "italic"
+     }
+   },
+   {
+     "name": "Rust Attributes",
+     "scope": [
+       "meta.attribute.rust",
+       "meta.attribute.identifier.rust"
+     ],
+     "settings": {
+       "foreground": "#ff9800",
+       "fontStyle": "italic"
+     }
    }
- ]
+  ]
 }
-        
