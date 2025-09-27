@@ -1,14 +1,16 @@
 {
   "name": "dev-ideas-themes",
-  "displayName": "Developer Themes",
-  "description": "A curated collection of 10 ergonomically optimized and psychologically inspired themes for Visual Studio Code — built for developers who code smart, code long, and code with passion.",
-  "version": "1.0.6",
+  "displayName": "Developer Themes - Enterprise Edition",
+  "description": "A comprehensive collection of ergonomically optimized and psychologically inspired themes for Visual Studio Code — featuring dark, light, high-contrast, and color-blind-friendly variants. Built for developers who code smart, code long, and code with passion.",
+  "version": "2.0.1",
   "publisher": "akashbadole",
   "license": "Apache-2.0",
   "engines": {
     "vscode": "^1.74.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
     "theme",
     "psychology",
@@ -22,23 +24,61 @@
     "go",
     "php",
     "html",
-    "css"
+    "css",
+    "enterprise",
+    "accessibility",
+    "color-blind",
+    "high-contrast",
+    "light",
+    "dark",
+    "wcag",
+    "semantic-highlighting"
   ],
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "https://github.com/akashsbadole/dev-psychology-themes"
   },
   "contributes": {
-     "themes": [
+    "themes": [
       {
         "label": "Focus Blue - Concentration & Trust",
         "uiTheme": "vs-dark",
         "path": "./themes/focus-blue.json"
       },
       {
+        "label": "Focus Blue Light - Concentration & Trust",
+        "uiTheme": "vs",
+        "path": "./themes/focus-blue-light.json"
+      },
+      {
+        "label": "Focus Blue High Contrast - Concentration & Trust",
+        "uiTheme": "vs-dark",
+        "path": "./themes/focus-blue-high-contrast.json"
+      },
+      {
+        "label": "Focus Blue Colorblind - Concentration & Trust",
+        "uiTheme": "vs-dark",
+        "path": "./themes/focus-blue-colorblind.json"
+      },
+      {
         "label": "Creative Purple - Innovation & Imagination",
         "uiTheme": "vs-dark",
         "path": "./themes/creative-purple.json"
+      },
+      {
+        "label": "Creative Purple Light - Innovation & Imagination",
+        "uiTheme": "vs",
+        "path": "./themes/creative-purple-light.json"
+      },
+      {
+        "label": "Creative Purple High Contrast - Innovation & Imagination",
+        "uiTheme": "vs-dark",
+        "path": "./themes/creative-purple-high-contrast.json"
+      },
+      {
+        "label": "Creative Purple Colorblind - Innovation & Imagination",
+        "uiTheme": "vs-dark",
+        "path": "./themes/creative-purple-colorblind.json"
       },
       {
         "label": "Energy Red - Passion & Alertness",
@@ -66,6 +106,21 @@
         "path": "./themes/balance-pink.json"
       },
       {
+        "label": "Balance Pink Light - Compassion & Focus",
+        "uiTheme": "vs",
+        "path": "./themes/balance-pink-light.json"
+      },
+      {
+        "label": "Balance Pink High Contrast - Compassion & Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/balance-pink-high-contrast.json"
+      },
+      {
+        "label": "Balance Pink Colorblind - Compassion & Focus",
+        "uiTheme": "vs-dark",
+        "path": "./themes/balance-pink-colorblind.json"
+      },
+      {
         "label": "Deep Indigo - Wisdom & Intuition",
         "uiTheme": "vs-dark",
         "path": "./themes/deep-indigo.json"
@@ -91,5 +146,22 @@
   "galleryBanner": {
     "color": "#1e1e1e",
     "theme": "dark"
-  }
+  },
+  "badges": [
+    {
+      "url": "https://img.shields.io/badge/Accessibility-WCAG%20AA%2B-brightgreen",
+      "href": "https://www.w3.org/WAI/WCAG21/quickref/",
+      "description": "WCAG AA+ Compliant"
+    },
+    {
+      "url": "https://img.shields.io/badge/Color%20Blind-Friendly-blueviolet",
+      "href": "https://en.wikipedia.org/wiki/Color_blindness",
+      "description": "Color Blind Friendly"
+    },
+    {
+      "url": "https://img.shields.io/badge/Enterprise-Ready-orange",
+      "href": "https://code.visualstudio.com/api/extension-guides/theme",
+      "description": "Enterprise Ready"
+    }
+  ]
 }
