@@ -2,7 +2,7 @@
   "name": "dev-ideas-themes",
   "displayName": "Developer Themes - Enterprise Edition",
   "description": "A comprehensive collection of ergonomically optimized and psychologically inspired themes for Visual Studio Code — featuring dark, light, high-contrast, and color-blind-friendly variants. Built for developers who code smart, code long, and code with passion.",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "publisher": "akashbadole",
   "license": "Apache-2.0",
   "engines": {
