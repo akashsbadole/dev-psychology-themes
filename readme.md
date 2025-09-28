@@ -3,12 +3,16 @@
 ![Version](https://img.shields.io/badge/version-2.0.0-blue)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.74%2B-orange)
-![Downloads](https://img.shields.io/badge/downloads-10K%2B-brightgreen)
+![Downloads](https://img.shields.io/badge/downloads-1k%2B-brightgreen)
 ![Rating](https://img.shields.io/badge/rating-4.8%2F5-yellow)
 
 A comprehensive collection of ergonomically optimized and psychologically inspired themes for Visual Studio Code — featuring dark, light, high-contrast, and color-blind-friendly variants. Built for developers who code smart, code long, and code with passion.
 
 ## ✨ Key Features
+
+### **Share you Suggestion**
+
+https://docs.google.com/forms/d/e/1FAIpQLSepgxXh0Np1oUPhoa8NCBVailSnYuRvvr9VHo9cLJggs3D3bg/viewform?usp=header
 
 ### 🏢 **Enterprise-Ready**
 
@@ -48,36 +52,36 @@ _Compassion & Focus - Complete theme family with all accessibility variants_
 
 _Concentration & Trust - Complete theme family with all accessibility variants_
 
-| Theme                           | Type  | Description                             | Accessibility |
-| ------------------------------- | ----- | --------------------------------------- | ------------- |
-| [Focus Blue](#)                 | Dark  | Original concentration-focused theme     | WCAG AA+      |
-| [Focus Blue Light](#)           | Light | Bright, clean variant                   | WCAG AA+      |
-| [Focus Blue High Contrast](#)   | Dark  | Maximum contrast for accessibility      | WCAG AAA      |
-| [Focus Blue Colorblind](#)      | Dark  | Optimized for color vision deficiencies | WCAG AA+      |
+| Theme                         | Type  | Description                             | Accessibility |
+| ----------------------------- | ----- | --------------------------------------- | ------------- |
+| [Focus Blue](#)               | Dark  | Original concentration-focused theme    | WCAG AA+      |
+| [Focus Blue Light](#)         | Light | Bright, clean variant                   | WCAG AA+      |
+| [Focus Blue High Contrast](#) | Dark  | Maximum contrast for accessibility      | WCAG AAA      |
+| [Focus Blue Colorblind](#)    | Dark  | Optimized for color vision deficiencies | WCAG AA+      |
 
 ### **Creative Purple Family** 🟣
 
 _Innovation & Imagination - Complete theme family with all accessibility variants_
 
-| Theme                               | Type  | Description                             | Accessibility |
-| ----------------------------------- | ----- | --------------------------------------- | ------------- |
-| [Creative Purple](#)                 | Dark  | Original innovation-focused theme      | WCAG AA+      |
-| [Creative Purple Light](#)           | Light | Bright, clean variant                   | WCAG AA+      |
-| [Creative Purple High Contrast](#)   | Dark  | Maximum contrast for accessibility      | WCAG AAA      |
-| [Creative Purple Colorblind](#)      | Dark  | Optimized for color vision deficiencies | WCAG AA+      |
+| Theme                              | Type  | Description                             | Accessibility |
+| ---------------------------------- | ----- | --------------------------------------- | ------------- |
+| [Creative Purple](#)               | Dark  | Original innovation-focused theme       | WCAG AA+      |
+| [Creative Purple Light](#)         | Light | Bright, clean variant                   | WCAG AA+      |
+| [Creative Purple High Contrast](#) | Dark  | Maximum contrast for accessibility      | WCAG AAA      |
+| [Creative Purple Colorblind](#)    | Dark  | Optimized for color vision deficiencies | WCAG AA+      |
 
 ### **Core Theme Collection**
 
-| Theme                | Type  | Psychological Benefit    | Best For                        |
-| -------------------- | ----- | ------------------------ | ------------------------------- |
-| [Energy Red](#)      | Dark  | Passion & Alertness      | High-energy sessions, deadlines |
-| [Nature Green](#)    | Dark  | Growth & Harmony         | Long coding sessions, learning  |
-| [Calm Teal](#)       | Dark  | Balance & Clarity        | Complex problem solving         |
-| [Warm Orange](#)     | Dark  | Enthusiasm & Creativity  | Brainstorming, prototyping      |
-| [Deep Indigo](#)     | Dark  | Wisdom & Intuition       | Architectural design, planning  |
-| [Earth Brown](#)     | Dark  | Stability & Grounding    | Legacy code maintenance         |
-| [Neutral Gray](#)    | Dark  | Minimalism & Focus       | Distraction-free coding         |
-| [Light Theme](#)     | Light | Brightness & Simplicity  | Daytime coding, documentation   |
+| Theme             | Type  | Psychological Benefit   | Best For                        |
+| ----------------- | ----- | ----------------------- | ------------------------------- |
+| [Energy Red](#)   | Dark  | Passion & Alertness     | High-energy sessions, deadlines |
+| [Nature Green](#) | Dark  | Growth & Harmony        | Long coding sessions, learning  |
+| [Calm Teal](#)    | Dark  | Balance & Clarity       | Complex problem solving         |
+| [Warm Orange](#)  | Dark  | Enthusiasm & Creativity | Brainstorming, prototyping      |
+| [Deep Indigo](#)  | Dark  | Wisdom & Intuition      | Architectural design, planning  |
+| [Earth Brown](#)  | Dark  | Stability & Grounding   | Legacy code maintenance         |
+| [Neutral Gray](#) | Dark  | Minimalism & Focus      | Distraction-free coding         |
+| [Light Theme](#)  | Light | Brightness & Simplicity | Daytime coding, documentation   |
 
 ## 🚀 Installation
 
@@ -94,13 +98,6 @@ _Innovation & Imagination - Complete theme family with all accessibility variant
 ```bash
 code --install-extension akashbadole.dev-ideas-themes
 ```
-
-### **Manual Installation**
-
-1. Download the latest release from [GitHub Releases](https://github.com/akashsbadole/dev-psychology-themes/releases)
-2. Extract the ZIP file
-3. Copy the extension folder to your VS Code extensions directory
-4. Restart VS Code
 
 ## 🎯 Usage
 
@@ -338,20 +335,11 @@ Enhanced accessibility configuration:
 - **Efficient Rendering**: Optimized for smooth scrolling
 - **Battery Friendly**: Low impact on laptop battery life
 
-### **Benchmark Results**
-
-| Metric         | Result | Comparison              |
-| -------------- | ------ | ----------------------- |
-| Load Time      | 85ms   | 40% faster than average |
-| Memory Usage   | 2.1MB  | 60% less than average   |
-| Render Time    | 16ms   | 50% faster than average |
-| Battery Impact | Low    | 70% better than average |
-
 ## 🔄 Updates & Maintenance
 
 ### **Version History**
 
-- **v2.0.0**: Enterprise Edition release with accessibility variants
+- **v2.0.1**: Enterprise Edition release with accessibility variants
 - **v1.0.6**: Original theme collection release
 - **v1.0.0**: Initial release
 
@@ -377,66 +365,8 @@ Themes are automatically updated through VS Code's extension update system. You 
 
 ### **Getting Help**
 
-- **Documentation**: Complete [documentation](./docs/)
-- **Issues**: [GitHub Issues](https://github.com/akashsbadole/dev-psychology-themes/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/akashsbadole/dev-psychology-themes/discussions)
-- **Email**: [Support](mailto:support@devthemes.com)
+https://docs.google.com/forms/d/e/1FAIpQLSepgxXh0Np1oUPhoa8NCBVailSnYuRvvr9VHo9cLJggs3D3bg/viewform?usp=header
 
 ### **Contributing**
 
-We welcome contributions from the community! Please read our [Contributing Guidelines](./CONTRIBUTING.md) for more information.
-
-### **Code of Conduct**
-
-Please read and follow our [Code of Conduct](./CODE_OF_CONDUCT.md) to ensure a welcoming and inclusive community.
-
-### **Enterprise Support**
-
-For enterprise customers, we offer:
-
-- **Priority Support**: 24/7 support with SLA guarantees
-- **Custom Development**: Custom theme development services
-- **Training**: On-site training and workshops
-- **Consulting**: Accessibility and design consulting services
-
-Contact us at [enterprise@devthemes.com](mailto:enterprise@devthemes.com) for more information.
-
-## 📄 License
-
-This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **VS Code Team**: For creating an amazing editor
-- **Community**: For valuable feedback and contributions
-- **Accessibility Experts**: For guidance on WCAG compliance
-- **Color Psychology Researchers**: For insights into color psychology
-
-## 📈 Roadmap
-
-### **Planned Features**
-
-- [ ] Dynamic theming based on time of day
-- [ ] AI-powered theme recommendations
-- [ ] Integration with more development tools
-- [ ] Mobile app for theme management
-- [ ] Team collaboration features
-
-### **In Development**
-
-- [x] Additional theme variants (Complete)
-- [ ] Enhanced language support
-- [ ] Performance optimizations
-- [ ] New accessibility features
-
----
-
-**Made with ❤️ by developers, for developers**
-
-[![GitHub](https://img.shields.io/badge/GitHub-akashsbadole-black?style=for-the-badge&logo=github)](https://github.com/akashsbadole)
-[![Twitter](https://img.shields.io/badge/Twitter-@akashbadole-blue?style=for-the-badge&logo=twitter)](https://twitter.com/akashbadole)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-akashbadole-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/akashbadole)
-
----
-
-_If you find this project helpful, please consider giving it a ⭐ on [GitHub](https://github.com/akashsbadole/dev-psychology-themes)!_
+https://docs.google.com/forms/d/e/1FAIpQLSepgxXh0Np1oUPhoa8NCBVailSnYuRvvr9VHo9cLJggs3D3bg/viewform?usp=header
